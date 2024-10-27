@@ -29,7 +29,6 @@ public class MyLinkedObject {
         return words;
     }
 
-
     public void setNext(MyLinkedObject next) {
         this.next = next;
     }

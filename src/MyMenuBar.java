@@ -105,7 +105,7 @@ public class MyMenuBar extends JMenuBar implements ActionListener {
             helpDialog.setLocationRelativeTo(null);
             helpDialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 
-            JLabel helpLabel = new JLabel("<html>Name: Yedeli Ahati<br>Account: ACP23YA<br>Email: yahati1@sheffield.ac.uk</html>", SwingConstants.CENTER);
+            JLabel helpLabel = new JLabel("<html>Author: Yedeli Ahati<br>Email: ahati.yedeli@gmail.com</html>", SwingConstants.CENTER);
             helpDialog.add(helpLabel);
 
             helpDialog.setVisible(true);
